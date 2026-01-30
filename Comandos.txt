@@ -1,0 +1,12 @@
+npm init -y
+npm install -g typescript
+npm install -g ts-node (usada para trabalhar com typeScript em modo terminal)
+tsc --init
+ 
+ts-node (nome do arquivo) - executa o código e não gera o arquivo .js
+ 
+npm install readline-sync 
+import leia = require("readline-sync");
+ 
+npm install @types/node - trás as tipagens do JS para o Node
+npm install --save-dev @types/readline-sync - converte o readline-sync de js para Ts
