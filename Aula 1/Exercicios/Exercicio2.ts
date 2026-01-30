@@ -4,6 +4,7 @@ import leia = require("readline-sync")
     let continuar: string = "S";
     let numPro: number ;
 
+    console.clear();
 
 
     while(continuar==="S"){

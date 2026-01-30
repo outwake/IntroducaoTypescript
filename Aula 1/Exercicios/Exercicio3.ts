@@ -1,18 +1,15 @@
 import leia = require("readline-sync")
 
-
-    // Criação de um array do tipo number que vai ficar armazenado na constante numeros
-    // Array é uma classe
     const numero: Set<number> = new Set<number>();
     const c: Array<number> = [];
     let continuar: string = "S";
-    let a: number , b: number ;
 
+    console.clear();
 
 
     while(continuar==="S"){
       numero.add(leia.questionFloat("Qual numero você deseja adicionar?"))
-      continuar = leia.keyIn("Deseja adicionar mais cores: ( S )Sim ( N )Não \n").toUpperCase();   
+      continuar = leia.keyIn("Deseja adicionar mais numero: ( S )Sim ( N )Não \n").toUpperCase();   
       console.clear();    
     }
     for (let valor of numero) {
