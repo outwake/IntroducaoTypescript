@@ -99,13 +99,13 @@ git clone https://github.com/outwake/IntroducaoTypescript.git
 4. Execute o arquivo JavaScript com o comando:
 
 ```bash
-node nome_do_arquivo.js
+node nome_do_arquivo.ts
 ```
 
 ### Exemplo:
 
 ```bash
-node HelloWorld.js
+node HelloWorld.ts
 ```
 
 <br />
