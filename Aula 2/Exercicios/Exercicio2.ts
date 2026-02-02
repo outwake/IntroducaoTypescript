@@ -1,4 +1,4 @@
-import leia= require("readline-sync")
+import leia from "readline-sync"
 import Stack = require("../Stack")
 
 
