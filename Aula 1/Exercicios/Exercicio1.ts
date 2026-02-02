@@ -2,7 +2,6 @@ import leia = require("readline-sync")
 
     const cor: Array<string> = new Array<string>();
     let continuar: string = "S"; 
-    let cores : string;
 
     console.clear();
     while(continuar==="S"){
