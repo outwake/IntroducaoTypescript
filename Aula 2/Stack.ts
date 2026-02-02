@@ -56,4 +56,5 @@ class Stack<Type> implements stackInterface<Type> {
        this.StackData.length = 0;
     }
 }
+
 export = Stack;
