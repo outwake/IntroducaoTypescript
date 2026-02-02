@@ -4,7 +4,9 @@ import Queue = require("../Queue");
 const fila = new Queue<string>();
 let continuar: string = "S";
 
-let menu1 : number ;
+let menu1 : number;
+let clienteMom = fila.dequeue();
+
 
 while(continuar==="S"){
 console.log("***************************")
@@ -32,10 +34,13 @@ switch(menu1){
     case 3:
         if( fila.isEmpty()== true){
             console.log("LISTA VAZIA");
+            fila.printQueue();
         }
         else{
-           fila.dequeue(); 
-           console.log("\n O Cliente foi Chamado!");
+           
+           clienteMom = fila.dequeue();
+           fila.printQueue();
+           console.log(`\n O Cliente ${clienteMom} foi Chamado!`);
         }
         continuar = leia.keyIn("Deseja fazer mais alguma operação? ( S )Sim ( N )Não \n").toUpperCase(); 
 

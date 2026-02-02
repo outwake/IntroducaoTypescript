@@ -39,10 +39,12 @@ switch(menu1){
             console.log("******************")
         }
         else{
+
+           let livroMom = pilha.pop() 
            pilha.pop(); 
            console.log("***************************")
            pilha.printStack();
-           console.log("\n O Livro foi retirado!\n");
+           console.log(`\n O Livro ${livroMom}foi retirado!\n`);
            console.log("**************************")
         }
         continuar = leia.keyIn("Deseja fazer mais alguma operação? ( S )Sim ( N )Não \n").toUpperCase(); 
