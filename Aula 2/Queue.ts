@@ -68,5 +68,4 @@ class Queue<Type> implements queueInterface<Type> {
    }
  
 }
-
 export = Queue;
